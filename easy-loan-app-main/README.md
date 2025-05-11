@@ -22,4 +22,4 @@ Easy Loan App is a smart loan management application that provides users with FA
 git clone https://github.com/YOUR_USERNAME/easy-loan-app.git
 cd easy-loan-app
 npm install
-npm start
+npm run dev
