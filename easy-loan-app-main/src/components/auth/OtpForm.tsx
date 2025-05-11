@@ -1,4 +1,3 @@
-
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 
@@ -47,7 +46,7 @@ const OtpForm = ({
                   >
                     <InputOTPGroup>
                       {Array.from({ length: 6 }).map((_, i) => (
-                        <InputOTPSlot key={i} id={`otp-${i}`} />
+                        <InputOTPSlot key={i} id={`otp-${i}`} index={i} />
                       ))}
                     </InputOTPGroup>
                   </InputOTP>
